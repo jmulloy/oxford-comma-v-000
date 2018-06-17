@@ -1,8 +1,7 @@
 def oxford_comma(array)
- if array.size == 2
+ if array.size == ["kiwi", "durian"]
    array.join(" and ")
- elsif array.size == 3
+ elsif array.size == ["kiwi", "durian", "starfruit"]
    array.joint(" , " " and ")
  end
-
 end
